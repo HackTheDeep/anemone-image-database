@@ -16,6 +16,7 @@ For each image, the database currently contains:
   - *path_lmd* Path to the .lmd file, if it exists. If not, an empty string.
   - *path_sbx* Path to the .sbx file, if it exists. If not, an empty string.
 - *canonical_name* The taxa, specimen, tissue and an image identifier concatenated with underscores. Useful for image files names.
+- *width*, *length* Dimensions of the nematocyst in micrometers, according to lmd metadata measurements, where available.
 # TODO
 - Add length and width for measured files
 - What do you need???
